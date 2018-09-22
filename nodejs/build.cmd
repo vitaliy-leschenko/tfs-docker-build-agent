@@ -1,0 +1,1 @@
+docker build -t tfsagent-nodejs:1809 .
