@@ -1,0 +1,1 @@
+docker build -t tfsagent-nodejs-dotnet:1809 .

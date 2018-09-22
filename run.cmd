@@ -4,5 +4,5 @@ docker run --name "tfs_agent" ^
 	-e VSTS_TOKEN=%VSTS_TOKEN% ^
 	-e VSTS_POOL="Default" ^
 	--restart on-failure ^
-	-d tfsagent-nodejs:1809
+	-d tfsagent-nodejs-dotnet:1809
 
