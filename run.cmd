@@ -3,6 +3,6 @@ docker run --name "tfs_agent" ^
 	-e VSTS_ACCOUNT="https://tfs.vitaliy.org" ^
 	-e VSTS_TOKEN=%VSTS_TOKEN% ^
 	-e VSTS_POOL="Default" ^
-	--restart on-failure ^
-	-d tfsagent-nodejs-dotnet:1809
+	--rm -it tfsagent-nodejs-dotnet:1809
 
+#	--restart on-failure ^
