@@ -1,0 +1,1 @@
+docker build -t tfsagent-docker:1809 .
