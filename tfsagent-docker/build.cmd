@@ -1,1 +1,1 @@
-docker build -t tfsagent-docker:1809 .
+docker build -t vitaliyorg.azurecr.io/tfs/agent:1803-with-docker .
